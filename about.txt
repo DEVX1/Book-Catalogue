@@ -1,0 +1,11 @@
+Nazwa aplikacji: "Baza książek"
+Autor: Aneta Skoniecka
+
+Aplikacja zawiera interfejs dostępu do bazy danych o książkach. 
+
+Przygotowane zostały widoki do przeglądania katalogu oraz dostępu do poszczególnej książki.
+Ponadto aby aplikacja w swoim wyglądzie przypominała prawdziwą witrynę dla urozmaicenia wyglądu dodano dodatkowe pozycje takie jak: home, aktualności, twoje konto, kontakt, wypozycz na karcie książki.
+Pozycje te nie mają podpięte żadnej funkcjonalności poza stroną, która informuje o nadchodzących zmianach.
+Do witryny przygotowano widoki "nie znaleziono strony" oraz "wkrótce otwarcie" dla urozmaicenia wyglądu aplikacji i zalepienia pustych linków.
+
+Do wykonania aplikacji użyto technologii Bootstrap Twitter, JQuery, Underscore i Backbone.

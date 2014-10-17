@@ -1,0 +1,10 @@
+.thumbnail {
+  background: #F8F8F8;
+}
+a {
+  color: #333;
+}
+a:hover {
+  	color: #333;
+	text-decoration: none;
+}
