@@ -23,7 +23,7 @@
       <div class="container">
         <div class="row">
 
-            <h1>Baza książek Biblioteki Głównej</h1>
+            <h1>My Books</h1>
 
         </div>
       </div>
@@ -50,16 +50,15 @@
               </div>
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                  <li><a href="#commingSoon">Aktualności</a></li>
-                  <li><a href="#commingSoon">Twoje konto</a></li>
-                  <li class="active"><a href="">Katalog</a></li>
-                  <li><a href="#commingSoon">Kontakt</a></li>
+                  <li><a href="#commingSoon">Favorites</a></li>
+                  <li class="active"><a href="">Catalog</a></li>
+                  <li><a href="#commingSoon">Contact</a></li>
                 </ul>
                 <form class="navbar-form navbar-right hide" role="search">
                   <div class="form-group">
                     <input type="text" class="form-control" placeholder="Tytuł lub autor">
                   </div>
-                  <button type="submit" class="btn btn-default">Szukaj</button>
+                  <button type="submit" class="btn btn-default">Search</button>
                 </form>
               </div>
             </div>
@@ -94,8 +93,8 @@
               <br><small class="lead" style=""><%= author %></small>
             </h2>
             <p>
-              <a href="#commingSoon" class="btn btn-primary" role="button">Wypożycz</a>
-              <a href="#books/<%= id %>" class="btn btn-default" role="button">Szczegóły</a>
+              <a href="#commingSoon" class="btn btn-primary" role="button">Borrow</a>
+              <a href="#books/<%= id %>" class="btn btn-default" role="button">Book Description</a>
             </p>
           </div>
         </div>
@@ -106,7 +105,7 @@
         <div>
           <div class="caption">
             <a href="#" class="btn btn-primary" role="button">
-              <span class="glyphicon glyphicon-circle-arrow-left"></span> Wróć do katalogu
+              <span class="glyphicon glyphicon-circle-arrow-left"></span>Back to the catalog
             </a>
           </div>
           <div class="caption">
@@ -121,7 +120,7 @@
                       <br><small class="lead" style=""><%= author %></small>
                     </h2>
                     <p><%= description %></p>
-                    <p ><span class="label label-default">ciekawa</span> <span class="label label-default">lektura</span> <span class="label label-default">romantyzm</span></p>
+                    <p ><span class="label label-default">Curious</span> <span class="label label-default">Reading</span> <span class="label label-default">Romance</span></p>
                   </div>
                 </div>
               </div>
@@ -147,7 +146,7 @@
                     </h2>
                     <p><%= description %></p>
                     <a href="" class="btn btn-primary" role="button">
-                      Wróć do katalogu
+                      Back to the catalog
                     </a>
                   </div>
                 </div>
