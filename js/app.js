@@ -8,13 +8,13 @@
     var text = [
         {   /* NotFound */
             title1: "Oops!",
-            title2: "Coś poszło nie tak!",
-            description: "Prawdopodobnie wpisałeś zły adres lub strona nie istnieje."
+            title2: "This book has not been found",
+            description: "We haven't found this book"
         },
         {   /* CommingSoon */
-            title1: "Comming soon! ",
-            title2: "Zapraszamy wkrótce!",
-            description: "Pracujemy nad nową odsłoną tej strony. Prosimy o cierpliwość."
+            title1: "Coming soon! ",
+            title2: "Coming soon!",
+            description: "This is going to be coming soon!!!"
         }
     ];
 
