@@ -24,7 +24,7 @@
 
     window.Book = Backbone.Model.extend({
         defaults: {
-            photo: "",
+            photo: "images/300x300.gif",
             title: "",
             author: "",
             description: "",
